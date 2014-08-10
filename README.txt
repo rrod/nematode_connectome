@@ -1,6 +1,6 @@
 ### ABOUT #########################################
 
-WEBSITE: www.GitHub.com/coding-abbey/nematode
+WEBSITE: www.GitHub.com/coding-abbey/nematode_connectome
 AUTHOR:  Rudy Rodriguez
 YEAR:    2014
 
