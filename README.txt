@@ -1,0 +1,15 @@
+### ABOUT #########################################
+
+WEBSITE: www.GitHub.com/coding-abbey/nematode
+AUTHOR:  Rudy Rodriguez
+YEAR:    2014
+
+NOTE:    All data was derived from online sources, especially from Worm Atlas.
+
+
+### DESCRIPTION #########################################
+ This is an interactive, web-based model, of the neural network of the nematode worm C. elegans. While the worm has two sexes, this model only covers the hermaphrodite.
+
+
+### HOW IT WORKS #########################################
+ Users can select through any of the neurons in the connectome of the C. elegans hermaphrodite. The program will then output information about each individual neuron in the appropriate fields as well as display on the HTML5 canvas all of its connections to other neurons in the network.
