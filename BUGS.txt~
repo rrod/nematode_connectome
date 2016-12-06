@@ -1,5 +1,0 @@
-### BUG LIST ##########################################
-Neuron 302 doesnt show up on the display.
-Cells are being re-drawn every time.
-Some projections are wrong (issue with R).
-Not all neurons are properly positioned.  This is due to data constraints.
