@@ -1,0 +1,165 @@
+/*
+////////////////////////////////////////////////////////////////////////////////
+DESCRIPTION
+CSS file for the nematode connectome project.
+////////////////////////////////////////////////////////////////////////////////
+*/
+
+
+/*
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+CSS FOR MAIN.PHP
+*/
+a:link{
+  color: #0ff;
+  text-decoration: none;
+}
+a:visited{
+  color: #0ff;
+  text-decoration: none;
+}
+a:active{
+  color: #0ff;
+  text-decoration: none;
+}
+a:hover{
+  color: #f00;
+  text-decoration: underline;
+}
+
+.controls_background{
+  position:absolute; left:0%; bottom:0%; height:20%; width:100%; color:#fff;
+  background-color:rgba(60,60,60,1);
+}
+
+.view{
+   position:absolute; left:0%; top:0%; border: 0px solid #666;
+   background-color:rgba(0,0,0,0);
+}
+
+.canv{
+   position:absolute; top:0%; left:0%; background-color:rgba(0,0,0,0);
+   z-index:3;
+}
+
+.canv_2{
+   position:absolute; top:0%; left:0%; background-color:rgba(0,0,0,1);
+   z-index:2;
+}
+
+.choose{
+   position:fixed; left:0.5%; top:80.5%; width:9%; border:0px solid #f00;
+   background-color:#666;
+}
+
+.cell_name_1{
+   position:fixed; left:0.5%; top:84%; width:9%; border:0px solid #f00;
+   background-color:#666;
+}
+
+.cell_location_1{
+   position:fixed; left:0.5%; top:87.5%; width:9%; border:0px solid #f00;
+   background-color:#666;
+}
+
+.cell_type_1{
+   position:fixed; left:0.5%; top:91%; width:9%; border:0px solid #f00;
+   background-color:#666;
+}
+
+.cell_function_1{
+   position:fixed; left:0.5%; top:94.5%; width:9%; border:0px solid #f00;
+   background-color:#666;
+}
+
+.legend_2{
+   position:absolute; right:1%; bottom:25%; height:10%; width:10%;
+   font-size:70%; color:#888; border: 0px solid #666;
+   background-color:rgba(255,255,255,0); z-index:3;
+}
+
+.help{
+  position:absolute; right:2%; top:0%; width:5%; font-size:70%; color:#000;
+  border: 0px solid #666; text-align:center;
+  background-color:rgba(0,255,155,1); z-index:3;
+}
+
+.help_menu{
+  position:absolute; left:20%; top:10%; width:0%; height:60%;
+  background-color:#aaa; z-index:5;
+}
+/*
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+*/
+
+
+/*
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+CSS FOR QUERY.PHP
+*/
+
+.post_synaptic{
+  position:fixed; left:20%; top:80.5%; height:6%; width:80%;
+  border:0px solid #f00; background-color:#666; color: #000;
+  overflow-y: auto;
+}
+
+.pre_synaptic{
+  position:fixed; left:20%; top:87%; height:6%; overflow-y: auto;
+  width:80%; border:0px solid #f00; background-color:#666;
+}
+
+.gap_junction{
+  position:fixed; left:20%; top:93.5%; height:6%; overflow-y: auto;
+  width:80%; border:0px solid #f00; background-color:#666;
+}
+
+.out1{
+   position:fixed; left:20%; top:80.5%; width: 100%; background-color:#666;
+}
+
+.out2{
+  position:fixed; left:0%; bottom:0%; width: 100%; background-color:#666;
+}
+
+.cell_name_2{
+  position:fixed; left:10%; top:84%; width:9.5%; border:0px solid #f00;
+  background-color:#666; color:#0ff;
+}
+
+.cell_location_2{
+  position:fixed; left:10%; top:87.5%; width:9.5%; border:0px solid #f00;
+  background-color:#666; color:#0ff;
+}
+
+.cell_type_2{
+  position:fixed; left:10%; top:91%; width:9.5%; border:0px solid #f00;
+  background-color:#666; color:#0ff;
+}
+
+.cell_function_2{
+  position:fixed; left:10%; top:94.5%; width:9.5%; border:0px solid #f00;
+  background-color:#666; color:#0ff;
+}
+
+.cell_locations{
+   position:fixed; left:0%; bottom:0%; width:100%; background-color:#666;
+   color:#0ff;
+}
+
+.cell_locations_z{
+   position:fixed; left:0%; bottom:0%; width:100%; background-color:#666;
+   color:#0ff;
+}
+
+.cell_types_list{
+   position:fixed; left:0%; bottom:0%; width:100%;
+   background-color:#666; color:#00F;
+}
+/*
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+*/
